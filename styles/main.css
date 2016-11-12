@@ -1,0 +1,85 @@
+html{
+    margin: 0 20px;
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', Aial, sans-serif;
+}
+
+h2{
+        font-family: 'Montserrat', Aial, sans-serif;
+
+}
+body {
+background: #E45C60;
+    color: #000;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 10px 20px; 
+ }
+    
+
+div {
+  background: #ffbaa3;
+  padding: 10px 20px;
+}
+
+
+#firePic, #pressurePic, #timePic, #pianoPic { 
+    height: 200px;
+    width: 200px;
+}
+
+    #longestTime, #pianoMan, #pressureSong, #theFire {
+        
+        max-width: 300px;
+}
+
+#header {
+    width: 100%;
+    max-height: 400px;
+}
+
+.billySong {
+display: inline-block;
+}
+
+a:link, a:visited, a:active {
+    color: #0287b3;
+}
+
+a:hover {
+    color: #3ecbfa;
+}
+
+aside a:link, aside a:visited, aside a:active {
+    color: #f0f002;
+}
+
+aside a:focus, aside a:hover {
+    text-decoration: none;
+    color: #333;
+    background: #fafa7f;
+}
+
+/* media queries */
+@media (max-width: 800px) {
+
+    h2{
+        text-align: center;
+    }
+    
+    #firePic, #pressurePic, #timePic, #pianoPic {
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #longestTime, #pianoMan, #pressureSong, #theFire {
+        padding: 10px;
+    }
+      
+}
